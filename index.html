@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>MWX Tools</title>
+</head>
+
+	<script src="/111.js"></script>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/template.css">
+  <!-- Buttons 库的核心文件 -->
+  <link rel="stylesheet" href="css/bttn.css">
+
+  <!-- 当需要使用带下拉菜单的按钮时才需要加载下面的 JavaScript 文件 -->
+  <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/buttons.js"></script>
+
+  <!-- 只有使用字体图标时才需要加载 Font-Awesome -->
+  <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+body {margin:0;}
+
+.icon-bar {
+  top:0;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 1px 0;
+  transition: all 0.5s ease;
+  top:0;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #999999;
+}
+
+.active {
+  background-color: #0099ff;
+}
+.avatar {
+  background-color: #0099ff;
+}
+</style>
+<body>
+
+<div class="icon-bar" style='z-index:999;'>
+  <style>
+ a{
+ text-decoration: none;
+ }
+ 
+ .line{
+	width: 100%;
+	height: 1px;
+	box-shadow: 0 5px 5px 2px rgba(0,153,255,.2);
+	border-radius: 10px;
+	border-top: 5px solid #0099ff;
+}
+
+.button
+{
+	margin: 0 auto;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 5px 5px 2px rgba(0,153,255,.2);
+	line-height: 50px;
+	width:50%;
+	height:50px;
+	background: #0099ff;
+	transition:width 1s;
+	-webkit-transition:width 1s; /* Safari */
+}
+
+.button:hover
+{
+	width:100%;
+}
+
+h1
+{
+    text-shadow: 2px 2px 2px #fff;
+	color:white;
+}
+h3
+{
+	color:white;
+}
+
+h2
+{
+    text-shadow: 2px 2px 2px #fff;
+	color:white;
+}
+
+a
+{
+ text-decoration: none;
+ color:white;
+}
+
+img{
+	border-radius: 10px;
+	box-shadow: 0 5px 5px 2px rgba(0,0,0,.2);
+}
+
+.bt2
+{
+	margin: 0 auto;
+	text-align: center;
+	line-height: 10px;
+    border-radius: 10px;
+    border: 2px solid #0099ff;
+    width: 50%;
+    height: 50px;  
+	box-shadow: 0 5px 5px 2px rgba(0,153,255,.2);
+	transition:width 1s;
+	-webkit-transition:width 1s; /* Safari */
+}
+
+.bt2:hover
+{
+	width:100%;
+}
+
+:root {
+  /* 字体大小 */
+  --waline-font-size: 24px;
+
+  /* 常规颜色 */
+  --waline-white: #fff;
+  --waline-light-grey: #999;
+  --waline-dark-grey: #666;
+
+  /* 主题色 */
+  --waline-theme-color: #0099ff;
+  --waline-active-color: #0099ff;
+
+  /* 布局颜色 */
+  --waline-text-color: #fff;
+  --waline-bgcolor: #0099ff;
+  --waline-bgcolor-light: #0066cc;
+  --waline-bgcolor-hover: #66ccff;
+  --waline-border-color: #0066cc;
+  --waline-disable-bgcolor: #fff;
+  --waline-disable-color: #bbb;
+  --waline-code-bgcolor: #282c34;
+
+  /* 特殊颜色 */
+  --waline-bq-color: #0099ff;
+
+  /* 头像 */
+  --waline-avatar-size: 3.25rem;
+  --waline-mobile-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
+
+  /* 徽章 */
+  --waline-badge-color: #3498db;
+  --waline-badge-font-size: 0.775em;
+
+  /* 信息 */
+  --waline-info-bgcolor: #f8f8f8;
+  --waline-info-color: #999;
+  --waline-info-font-size: 0.625em;
+
+  /* 渲染选择 */
+  --waline-border: 1px solid var(--waline-border-color);
+  --waline-avatar-radius: 50%;
+  --waline-box-shadow: 0 12px 40px #0099ff;
+
+
+
+}
+
+ </style>
+  <a href="#"><i class="iconfont icon-home"></i></a> 
+  <a href="/mwxtools.html"><i class="iconfont icon-search"></i></a> 
+  <a class="active" href="https://plutoscratch.github.io"><img id="myImg" src="http://www.runoob.com/wp-content/uploads/2016/04/img_lights.jpg" alt="Northern Lights, Norway" width="35" height="35"></a> 
+  <a href="#about"><i class="iconfont icon-about"></i></a>
+  <a href="#comment"><i class="iconfont icon-comment"></i></a>
+</div>
+<div style="padding:20px;margin-top:30px;background-color:#66ccff;height:5000px;">
+  <h1 align="center">MWX's Website</h1>
+  <h2 align="center">冥王星的小站</h2>
+
+    <div class="line"></div>
+  <div class="button"><a href="/mwxtools.html"><h3>工具箱</h3></a></div>
+  
+  <div class="button"><a href="https://wenwebs.github.io"><h3>LiveBBS</h3></a></div>
+  <p></p>
+    <div class="bt2"><a href="/livebbs.html"><h3>LiveBBS Lite</h3></a></div>
+  <div class="button"><h3>点我</h3></div>
+  <div class="button"><h3>点我</h3></div>
+  <p></p>
+  <center><button class="bttn-slant bttn-md bttn-primary">medium</button></center>
+  <p></p>
+  <center><button class="bttn-unite bttn-md bttn-primary">medium</button></center>
+
+
+  <h1 align="center"><a href="#" name="about"><i class="iconfont icon-about"></i>About</a></h1>
+  <h2 align="center">关于</h2>
+    <div class="line"></div>
+	<h3 align="center">这里是冥王星的小站</h3>
+	<h3 align="center">由冥王星维护与开发</h3>
+	<h3 align="center">所有样式都是本人写的</h3>
+	<h3 align="center">部分工具为转载</h3>
+	<h3 align="center">创建于2022/4/11，主要是用来练手的</h3>
+	<p></p>
+	<h1 align="center"><a href="#" name="comment"><i class="iconfont icon-comment"></i>Comment</a></h1>
+    <h2 align="center">评论区</h2>
+	<div class="line"></div>
+	<h3 align="center">阅读量: <span id="/" class="waline-visitor-count" /></h3>
+	<h3 align="center">当前页共有<span id="/" class="waline-comment-count" />条评论</h3>
+	<head>
+  <!-- ... -->
+  <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
+  <!-- ... -->
+</head>
+<body>
+  <!-- ... -->
+  <div id="waline"></div>
+  <script>
+    Waline({
+      el: '#waline',
+      serverURL: 'https://ccoommeett-2xoydms0d-wenwebs.vercel.app/',
+	  emoji: [
+    'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
+    'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+	'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
+	'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
+	'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
+	'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
+       ],
+	  avatar: 'robohash', 
+	  visitor: true,
+	  count: 10,
+    });
+  </script>
+</body>
+
+
+
+</div>
+
+
+
+</html>
